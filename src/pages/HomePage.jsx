@@ -11,10 +11,16 @@ const HomePage = () => {
     dispatch(fetchAllUsersAction());
   }, []);
 
-
-
   return (
-    <div style={{display:"flex",justifyContent:"space-around", flexWrap:"wrap", gap:"20px", padding:"0 30px"}}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-around",
+        flexWrap: "wrap",
+        gap: "20px",
+        padding: "0 30px",
+      }}
+    >
       {users.map((item) => (
         <UserCard key={item.id} userInfo={item} />
       ))}

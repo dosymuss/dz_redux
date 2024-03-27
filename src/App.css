@@ -4,9 +4,10 @@
 }
 .App {
   text-align: center;
-  background-color: #415a77;
+  background-color: #c8c8c8;
   font-family: sans-serif;
   height: 100vh;
+  padding: 100px;
 }
 .header{
   background-color: #1b263b;
